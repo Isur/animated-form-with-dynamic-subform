@@ -1,0 +1,10 @@
+.form input {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+}
+.form button {
+  padding: 12px 20px;
+  margin: 8px 8px;
+}
