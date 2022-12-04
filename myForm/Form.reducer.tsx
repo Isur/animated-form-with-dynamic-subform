@@ -18,7 +18,8 @@ const subFormInitState: SubForm = {
 export const FormReducer = (state: FormState, action: Actions): FormState => {
   switch (action.type) {
     case "clear":
-      return { ...initState };
+      const idGen = idGenerator();
+      return { ...initState, idGen };
     case "update":
       return { ...state, [action.payload.field]: action.payload.value };
     case "addSub":

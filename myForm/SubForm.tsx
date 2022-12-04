@@ -44,8 +44,7 @@ export const SubFormView: FC<Props> = ({ id, onChange, onDelete, data }) => {
         }
       />
       <button type="button" onClick={deleter}>
-        {" "}
-        DELETE{" "}
+        DELETE
       </button>
     </div>
   );

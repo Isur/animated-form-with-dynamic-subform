@@ -38,7 +38,7 @@ export const MainForm: FC = () => {
 
   return (
     <div>
-      <h1> FORM </h1>
+      <h1> FORM - open dev tools to see results of submit </h1>
       <form className={styles.form} onSubmit={submit}>
         <input
           type="text"
@@ -62,7 +62,7 @@ export const MainForm: FC = () => {
             })
           }
         />
-        <button type="submit">Console.Log()</button>
+        <button type="submit">Console.Log() & Clear</button>
         <button type="button" onClick={addSub}>
           Add Sub
         </button>
